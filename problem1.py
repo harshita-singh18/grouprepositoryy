@@ -1,3 +1,6 @@
 #Write a function to reverse a string.
 
-def
+def reverse_string(s):
+    return s[::-1]
+
+print(reverse_string("Hello World!"))
